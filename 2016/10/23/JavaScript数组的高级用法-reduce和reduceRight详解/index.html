@@ -51,7 +51,7 @@ callback
 
 initialValue
 可选，如果指定initialValue，则它将用作">
-<meta property="og:updated_time" content="2016-10-23T07:47:35.583Z">
+<meta property="og:updated_time" content="2016-10-23T07:52:20.135Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="JavaScript数组的高级用法-reduce和reduceRight详解">
 <meta name="twitter:description" content="reduce 方法（升序,从数组的第一项开始）语法:
@@ -249,7 +249,7 @@ var result = digits.reduce(addDigitValue, 0);
 console.log(result) //(4000 + 100 + 25 + 5) =4125
 </code></pre></li>
 </ol>
-<p><strong>说明:</strong> <strong>1示例</strong>只是为了说明该方法，可以直接用<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join" target="_blank" rel="external">Array.join()</a>方法得到结果</p>
+<p><strong>说明:</strong> <strong>1示例</strong>只是为了说明该方法，可以简单的直接用<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join" target="_blank" rel="external">Array.join()</a>方法得到结果</p>
 <h3 id="reduceRight-方法（降序，从数组的最后一项开始）"><a href="#reduceRight-方法（降序，从数组的最后一项开始）" class="headerlink" title="reduceRight 方法（降序，从数组的最后一项开始）"></a>reduceRight 方法（降序，从数组的最后一项开始）</h3><p>reduceRight的语法以及回调函数的规则和reduce方法是一样的，区别就是在与reduce是升序，即角标从0开始，<br>而reduceRight是降序，即角标从arr.length-1开始。如果有初始值，则从最后一个数开始计算，<br>如果没有初始值，则previousValue参数是数组中最后一个元素的值，currentValue是数组中倒数第二个元素的值。</p>
 <h4 id="示例-1"><a href="#示例-1" class="headerlink" title="示例"></a>示例</h4><ol>
 <li><p>reduceRight 方法可应用于字符串。下面的示例演示如何使用此方法反转字符串中的字符</p>
@@ -261,12 +261,12 @@ var result = [].reduceRight.call(word, AppendToArray);
 console.log(result); //computer
 </code></pre></li>
 </ol>
-<p><strong>说明:</strong>也可用数组的reverse(),也可用于反转字符串，但不能用call方法直接调用。需先把字符串转化为数组</p>
+<p><strong>说明:</strong>也可用数组的reverse()方法,也可用于反转字符串，但不能用call方法直接调用。需先把字符串转化为数组</p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://jjeejj.github.io/2016/10/23/JavaScript数组的高级用法-reduce和reduceRight详解/" data-id="cium6uvyy0001f4mtv7x51guz" class="article-share-link">Share</a>
+      <a data-url="https://jjeejj.github.io/2016/10/23/JavaScript数组的高级用法-reduce和reduceRight详解/" data-id="ciumc6pmf0000h4mtyjxqsent" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Array/">Array</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/js/">js</a></li></ul>
