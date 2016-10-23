@@ -5,7 +5,7 @@
   
 
 
-<html class="theme-next mist use-motion">
+<html class="theme-next pisces use-motion">
 <head>
   <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
@@ -96,7 +96,7 @@
 <script type="text/javascript" id="hexo.configuration">
   var NexT = window.NexT || {};
   var CONFIG = {
-    scheme: 'Mist',
+    scheme: 'Pisces',
     sidebar: {"position":"left","display":"post"},
     fancybox: true,
     motion: true,
@@ -187,6 +187,26 @@
           </a>
         </li>
       
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-book">
+          <a href="/book" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-book"></i> <br />
+            
+            电子书
+          </a>
+        </li>
+      
 
       
     </ul>
@@ -270,7 +290,222 @@
       
         
           
-            
+            <hr>
+<h4 id="Hexo-安装主题的方式非常简单，只需要将主题文件拷贝至站点目录的-themes-目录下，-然后修改下配置文件即可"><a href="#Hexo-安装主题的方式非常简单，只需要将主题文件拷贝至站点目录的-themes-目录下，-然后修改下配置文件即可" class="headerlink" title="Hexo 安装主题的方式非常简单，只需要将主题文件拷贝至站点目录的 themes 目录下， 然后修改下配置文件即可"></a>Hexo 安装主题的方式非常简单，只需要将主题文件拷贝至站点目录的 themes 目录下， 然后修改下配置文件即可</h4><h2 id="安装-NexT"><a href="#安装-NexT" class="headerlink" title="安装 NexT"></a>安装 NexT</h2><p>对于NexT 来说，安装步骤如下：</p>
+<h3 id="下载主题"><a href="#下载主题" class="headerlink" title="下载主题"></a>下载主题</h3><p>在终端窗口下，定位到 Hexo 站点目录下。使用 Git checkout 代码：</p>
+<pre><code>$ cd your-hexo-site
+$ git clone https://github.com/iissnan/hexo-theme-next themes/next
+</code></pre><blockquote>
+<p>如果你对 Git 感兴趣，可以通过《Pro Git》这本书来学习。你可以访问<a href="http://iissnan.com/progit/" target="_blank" rel="external">在线版本（第一版）</a></p>
+</blockquote>
+<h3 id="启用主题"><a href="#启用主题" class="headerlink" title="启用主题"></a>启用主题</h3><p>与所有Hexo主题启用的模式一样。当克隆/下载完成后，打开 <button style="color:red;border-radius:5px;background-color: yellowgreen">站点配置文件</button>， 找到 theme 字段，并将其值更改为 <strong><em>hexo-theme-next</em></strong></p>
+<pre><code>theme: hexo-theme-next
+</code></pre><blockquote>
+<p>到此，NexT 主题安装完成。下一步我们将验证主题是否正确启用。在切换主题之后、验证之前， 我们最好使用 hexo clean 来清除 Hexo 的缓存。</p>
+</blockquote>
+<h3 id="验证主题"><a href="#验证主题" class="headerlink" title="验证主题"></a>验证主题</h3><p>首先启动 Hexo 本地站点，并开启调试模式（即加上 –debug），整个命令是:</p>
+<pre><code>hexo s --debug
+
+INFO  Hexo is running at http://localhost:4000/. Press Ctrl+C to stop.
+DEBUG Database saved
+</code></pre><p>此时即可使用浏览器访问 <a href="http://localhost:4000，检查站点是否正确运行" target="_blank" rel="external">http://localhost:4000，检查站点是否正确运行</a></p>
+<h2 id="主题设定"><a href="#主题设定" class="headerlink" title="主题设定"></a>主题设定</h2><h3 id="选择Scheme"><a href="#选择Scheme" class="headerlink" title="选择Scheme"></a>选择Scheme</h3><p>Scheme 是 NexT 提供的一种特性，借助于 Scheme，NexT 为你提供多种不同的外观。同时，几乎所有的配置都可以 在 Scheme 之间共用。目前 NexT 支持三种 Scheme，他们是:</p>
+<ul>
+<li>Muse - 默认 Scheme，这是 NexT 最初的版本，黑白主调，大量留白</li>
+<li>Mist - Muse 的紧凑版本，整洁有序的单栏外观</li>
+<li>Pisces - 双栏 Scheme，小家碧玉似的清新</li>
+</ul>
+<p>Scheme 的切换通过更改 <button style="color:write;border-radius:5px;background-color: rgb(153,84,187)">主题配置文件</button>，搜索 scheme 关键字。 你会看到有三行 scheme 的配置，将你需用启用的 scheme 前面注释 # 即可。</p>
+<pre><code>#scheme: Muse
+#scheme: Mist
+scheme: Pisces
+</code></pre><h3 id="设置语言"><a href="#设置语言" class="headerlink" title="设置语言"></a>设置语言</h3><p>编辑 <button style="color:red;border-radius:5px;background-color: yellowgreen">站点配置文件</button>，将 language 设置成你所需要的语言。建议明确设置你所需要的语言，例如选用简体中文，配置如下：</p>
+<pre><code>language: zh-Hans
+</code></pre><p>目前 NexT 支持的语言如以下表格所示：</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left"><strong>语言</strong></th>
+<th style="text-align:left"><strong>代码</strong></th>
+<th style="text-align:left"><strong>设定示例</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">English</td>
+<td style="text-align:left">en</td>
+<td style="text-align:left">language: en</td>
+</tr>
+<tr>
+<td style="text-align:left">简体中文</td>
+<td style="text-align:left">zh-Hans</td>
+<td style="text-align:left">language: zh-Hans</td>
+</tr>
+<tr>
+<td style="text-align:left">Français</td>
+<td style="text-align:left">fr-FR</td>
+<td style="text-align:left">language: fr-FR</td>
+</tr>
+<tr>
+<td style="text-align:left">Português</td>
+<td style="text-align:left">pt</td>
+<td style="text-align:left">language: pt</td>
+</tr>
+<tr>
+<td style="text-align:left">繁體中文</td>
+<td style="text-align:left">zh-hk 或者 zh-tw</td>
+<td style="text-align:left">language: zh-hk</td>
+</tr>
+<tr>
+<td style="text-align:left">Русский язык</td>
+<td style="text-align:left">ru</td>
+<td style="text-align:left">language: ru</td>
+</tr>
+<tr>
+<td style="text-align:left">Deutsch</td>
+<td style="text-align:left">de</td>
+<td style="text-align:left">language: de</td>
+</tr>
+<tr>
+<td style="text-align:left">日本語</td>
+<td style="text-align:left">ja</td>
+<td style="text-align:left">language: ja</td>
+</tr>
+<tr>
+<td style="text-align:left">Indonesian</td>
+<td style="text-align:left">id</td>
+<td style="text-align:left">language: id</td>
+</tr>
+</tbody>
+</table>
+<h3 id="设置菜单"><a href="#设置菜单" class="headerlink" title="设置菜单"></a>设置菜单</h3><p>菜单配置包括三个部分，第一是菜单项（名称和链接），第二是菜单项的显示文本，第三是菜单项对应的图标。NexT 使用的是 Font Awesome 提供的图标，<a href="http://fontawesome.io/" target="_blank" rel="external">Font Awesome</a> 提供了600+ 的图标，可以满足绝大的多数的场景，同时无须担心在 Retina 屏幕下 图标模糊的问题。</p>
+<p>编辑 <button style="color:write;border-radius:5px;background-color: rgb(153,84,187)">主题配置文件</button>，修改以下内容：</p>
+<p>①：设定菜单内容，对应的字段是 menu。 菜单内容的设置格式是：item name: link。其中 item name 是一个名称，这个名称并不直接显示在页面上，她将用于匹配图标以及翻译。</p>
+<pre><code>menu:
+  home: /
+  archives: /archives
+  #about: /about
+  #categories: /categories
+  tags: /tags
+  #commonweal: /404.html
+</code></pre><blockquote>
+<p>若你的站点运行在子目录中，请将链接前缀的 / 去掉</p>
+</blockquote>
+<p>NexT 默认的菜单项有（标注✿的项表示需要手动创建这个页面）：</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left"><strong>键值</strong></th>
+<th style="text-align:left"><strong>设定值</strong></th>
+<th style="text-align:left"><strong>显示文本（简体中文</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">home</td>
+<td style="text-align:left">home: /</td>
+<td style="text-align:left">主页</td>
+</tr>
+<tr>
+<td style="text-align:left">archives</td>
+<td style="text-align:left">archives: /archives</td>
+<td style="text-align:left">归档页</td>
+</tr>
+<tr>
+<td style="text-align:left">categories</td>
+<td style="text-align:left">categories: /categories</td>
+<td style="text-align:left">分类页✿</td>
+</tr>
+<tr>
+<td style="text-align:left">tags</td>
+<td style="text-align:left">tags: /tags</td>
+<td style="text-align:left">标签页✿</td>
+</tr>
+<tr>
+<td style="text-align:left">about</td>
+<td style="text-align:left">about: /about</td>
+<td style="text-align:left">关于页面✿</td>
+</tr>
+<tr>
+<td style="text-align:left">commonweal</td>
+<td style="text-align:left">commonweal: /commonweal</td>
+<td style="text-align:left">公益 404✿</td>
+</tr>
+</tbody>
+</table>
+<p>②：设置菜单项的显示文本。在第一步中设置的菜单的名称并不直接用于界面上的展示。Hexo 在生成的时候将使用 这个名称查找对应的语言翻译，并提取显示文本。这些翻译文本放置在 NexT 主题目录下的 languages/{language}.yml （{language} 为你所使用的语言）。</p>
+<p>以简体中文为例，若你需要添加一个菜单项，比如 something。那么就需要修改简体中文对应的翻译文件 languages/zh-Hans.yml，在 menu 字段下添加一项：</p>
+<pre><code>menu:
+    home: 首页
+    archives: 归档
+    categories: 分类
+    tags: 标签
+    about: 关于
+    search: 搜索
+    commonweal: 公益404
+    something: 有料
+</code></pre><p>③：设定菜单项的图标，对应的字段是 menu_icons。 此设定格式是 item name: icon name，其中 item name 与上一步所配置的菜单名字对应，icon name 是 Font Awesome 图标的 名字。而 enable 可用于控制是否显示图标，你可以设置成 false 来去掉图标。</p>
+<pre><code>menu_icons:
+    enable: true
+    # Icon Mapping.
+    home: home
+    about: user
+    categories: th
+    tags: tags
+    archives: archive
+    commonweal: heartbeat
+</code></pre><blockquote>
+<p>在菜单图标开启的情况下，如果菜单项与菜单未匹配（没有设置或者无效的 Font Awesome 图标名字）的情况下，NexT 将会使用 ? 作为图标<br>请注意键值（如 home）的大小写要严格匹配</p>
+</blockquote>
+<h3 id="设置侧栏"><a href="#设置侧栏" class="headerlink" title="设置侧栏"></a>设置侧栏</h3><p>可以通过修改 <button style="color:write;border-radius:5px;background-color: rgb(153,84,187)">主题配置文件</button> 中的 sidebar 字段来控制侧栏的行为。侧栏的设置包括两个部分，其一是侧栏的位置，其二是侧栏显示的时机。</p>
+<p>①：设置侧栏的位置，修改 sidebar.position 的值，支持的选项有：</p>
+<ul>
+<li>left - 靠左放置</li>
+<li><p>right - 靠右放置</p>
+<blockquote>
+<p>目前仅 Pisces Scheme 支持 position 配置。影响版本5.0.0及更低版本</p>
+</blockquote>
+<p>  sidebar:</p>
+<pre><code>position: left
+</code></pre></li>
+</ul>
+<p>②：设置侧栏显示的时机，修改 sidebar.display 的值，支持的选项有：</p>
+<ul>
+<li>post - 默认行为，在文章页面（拥有目录列表）时显示</li>
+<li>always - 在所有页面中都显示</li>
+<li>hide - 在所有页面中都隐藏（可以手动展开）</li>
+<li><p>remove - 完全移除</p>
+<p>  sidebar:</p>
+<pre><code>display: post
+</code></pre></li>
+</ul>
+<blockquote>
+<p>已知侧栏在 use motion: false 的情况下不会展示。 影响版本5.0.0及更低版本。</p>
+</blockquote>
+<h3 id="设置头像"><a href="#设置头像" class="headerlink" title="设置头像"></a>设置头像</h3><p>编辑 <button style="color:red;border-radius:5px;background-color: yellowgreen">站点配置文件</button> 新增字段 avatar，值设置成头像的链接地址。其中，头像的链接地址可以是</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left"><strong>地址</strong></th>
+<th style="text-align:left"><strong>值</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">完整的互联网 URI</td>
+<td style="text-align:left"><a href="http://example.com/avtar.png" target="_blank" rel="external">http://example.com/avtar.png</a></td>
+</tr>
+<tr>
+<td style="text-align:left">站点内的地址</td>
+<td style="text-align:left">将头像放置主题目录下的 source/uploads/（新建uploads目录若不存在）<br> 配置为：avatar: /uploads/avatar.png <br> 或者 放置在 source/images/ 目录下 <br> 配置为：avatar: /images/avatar.png</td>
+</tr>
+</tbody>
+</table>
+<pre><code>avatar: /images/avatar.png
+</code></pre><h3 id="设置作者昵称"><a href="#设置作者昵称" class="headerlink" title="设置作者昵称"></a>设置作者昵称</h3><p>编辑 <button style="color:red;border-radius:5px;background-color: yellowgreen">站点配置文件</button>，设置 author 为你的昵称。</p>
+<h3 id="站点描述"><a href="#站点描述" class="headerlink" title="站点描述"></a>站点描述</h3><p>编辑 <button style="color:red;border-radius:5px;background-color: yellowgreen">站点配置文件</button> 设置 description 字段为你的站点描述。</p>
+<hr>
+
           
         
       
@@ -476,6 +711,7 @@ console.log(result); //computer
 </code></pre></li>
 </ol>
 <p><strong>说明:</strong>也可用数组的reverse()方法,也可用于反转字符串，但不能用call方法直接调用。需先把字符串转化为数组</p>
+<hr>
 
           
         
@@ -554,10 +790,10 @@ console.log(result); //computer
 
           
             <div class="site-state-item site-state-tags">
-              
-                <span class="site-state-item-count">2</span>
+              <a href="/tags">
+                <span class="site-state-item-count">4</span>
                 <span class="site-state-item-name">标签</span>
-              
+              </a>
             </div>
           
 
@@ -606,7 +842,7 @@ console.log(result); //computer
 <div class="theme-info">
   主题 -
   <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
-    NexT.Mist
+    NexT.Pisces
   </a>
 </div>
 
@@ -671,6 +907,13 @@ console.log(result); //computer
 
   
   
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.0.2"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.0.2"></script>
+
+
 
   
 
