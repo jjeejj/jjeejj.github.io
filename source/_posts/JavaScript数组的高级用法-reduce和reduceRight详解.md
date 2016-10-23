@@ -2,6 +2,7 @@
 title: JavaScript数组的高级用法-reduce和reduceRight详解
 date: 2016-10-23 12:57:14
 tags: [js,Array]
+description: ES6 新增了两个归并数组的方法：reduce() 和 reduceRight().这两个方法都会迭代数组的所有项，然后构建一个最终值返回。
 ---
 
 -------------------------

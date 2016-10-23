@@ -2,6 +2,7 @@
 title: Hexo Next主题的使用说明
 date: 2016-10-23 16:16:55
 tags: [Hexo]
+description: Hexo 安装主题的方式非常简单，只需要将主题文件拷贝至站点目录的 themes 目录下， 然后修改下配置文件即可.对于NexT 来说，安装步骤如下：
 ---
 -------------------------
 #### Hexo 安装主题的方式非常简单，只需要将主题文件拷贝至站点目录的 themes 目录下， 然后修改下配置文件即可
@@ -19,6 +20,7 @@ tags: [Hexo]
 	$ git clone https://github.com/iissnan/hexo-theme-next themes/next
 
 >如果你对 Git 感兴趣，可以通过《Pro Git》这本书来学习。你可以访问[在线版本（第一版）](http://iissnan.com/progit/)
+
 
 ### 启用主题
 
