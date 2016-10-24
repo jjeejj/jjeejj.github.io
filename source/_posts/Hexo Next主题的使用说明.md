@@ -176,5 +176,16 @@ NexT 默认的菜单项有（标注✿的项表示需要手动创建这个页面
 
 编辑 <button style="color:red;border-radius:5px;background-color: yellowgreen">站点配置文件</button> 设置 description 字段为你的站点描述。
 
+## Q & A
+
+1. Tags 标签页 404 Not Get/
+
+		新建一篇文章
+		hexo new page tags
+		在 该文章的Front-matter 中添加
+		type: "tags"
+		主题菜单中的路径改为：
+		tags: /tags
+
 	
 ------------------------------------
