@@ -31,7 +31,7 @@ tags: [css]
 
 效果如下：
 
-![alt](/images/bg-repeat.png)
+![alt](/images/background-repeat属性详解/bg-repeat.png)
 >当使用 **background-repeat** 取值为 **repeat** 时，如果背景图片尺寸和容器尺寸不能完全匹配时，会造成背景图片不全，如上图红框区域
 
 ### repeat-x
@@ -57,7 +57,7 @@ tags: [css]
 	
 效果如下：
 
-![alt](/images/bg-repeat-y.png)
+![alt](/images/background-repeat属性详解/bg-repeat-y.png)
 >同样的道理，如果使用repeat-y有可能造成容器底部没有足够的空间展示整个背景图片
 
 ### no-repeat
@@ -70,7 +70,7 @@ tags: [css]
 	
 效果如下：
 
-![alt](/images/bg-no-repeat.png)
+![alt](/images/background-repeat属性详解/bg-no-repeat.png)
 >使用no-repeat时也会有背景图片显示不全的情况，那就是当容器的尺寸小于背景图片尺寸的时候
 
 ## css3 新增属性----round 和 space
@@ -80,12 +80,12 @@ tags: [css]
 ### round
 
 背景图像自动缩放直到适应且填充满整个容器
-![alt](/images/bg-round.png)
+![alt](/images/background-repeat属性详解/bg-round.png)
 
 ### space
 
 背景图像以相同的间距平铺且填充满整个容器或某个方向--图片不进行缩放---两边的图像靠边
-![alt](/images/bg-space.png)
+![alt](/images/background-repeat属性详解/bg-space.png)
 
 ## 不同的x和y轴的repeat值
 从规范中，我们可以获得<repeat-style>可以有x和y的值，允许提供2个参数，如果提供全部2个参数，第1个用于横向，第二个用于纵向,如果只提供1个参数，则用于横向和纵向
