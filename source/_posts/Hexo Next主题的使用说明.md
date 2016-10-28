@@ -176,9 +176,46 @@ NexT 默认的菜单项有（标注✿的项表示需要手动创建这个页面
 
 编辑 <button style="color:red;border-radius:5px;background-color: yellowgreen">站点配置文件</button> 设置 description 字段为你的站点描述。
 
+## 第三方服务
+
+### 网易云音乐
+
+去网易云音乐选择一首音乐，生成外链，嵌套到文章中
+
+生成的代码如下：
+
+	<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="http://music.163.com/outchain/player?type=2&id=114056&auto=1&height=66"></iframe>
+
+还可以放到侧边栏主站中：
+
+将外链插入到hexo/themes/hexo-theme-next/layout中的文件中
+我选择把播放器放在sidebar里面，所以我就选择了_macro文件夹中的 sidebar.swig文件，将之前复制的代码到了该文件中：
+
+```
+{% if theme.links %}
+	  <div class="links-of-blogroll motion-element {{ "links-of-blogroll-" + theme.links_layout | default('inline') }}">
+		<div class="links-of-blogroll-title">
+		  <i class="fa  fa-fw fa-{{ theme.links_icon | default('globe') | lower }}"></i>
+		  {{ theme.links_title }}
+		</div>
+		<ul class="links-of-blogroll-list">
+		  {% for name, link in theme.links %}
+			<li class="links-of-blogroll-item">
+			  <a href="{{ link }}" title="{{ name }}" target="_blank">{{ name }}</a>
+			</li>
+		  {% endfor %}
+		</ul>
+	  </div>
+	  把生成的代码放到这个位置
+{% endif %}
+```
+
+### 百度分享
+
+
 ## Q & A
 
-1. Tags 标签页 404 Not Get/
+### 1. Tags 标签页 404 Not Get/
 
 		新建一篇文章
 		hexo new page tags

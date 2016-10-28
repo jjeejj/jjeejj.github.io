@@ -60,7 +60,7 @@ description: 本文介绍 css 画各种不同图形的方法
 		border-left: 50px solid transparent;
 		border-right: 50px solid transparent;
 	}
->边框的四个角会被该角相邻的连个边框线评分
+>边框的四个角会被该角相邻的连个边框线平分
 >![alt](/images/纯css制作各种图形/border-triangle-split.png)
 
 --------------------------------
