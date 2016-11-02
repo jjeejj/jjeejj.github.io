@@ -87,6 +87,8 @@ tags: [html]
 <a href="mailto:test1@163.com?body=https://www.baidu.com/img/baidu_jgylogo3.gif' width='200' height='200'>">mail images</a>
 ```
 
+>注意：在微信里 点击 href 值为mailto 的a标签，无任何反应。
+
 ## Android Market
 希望一个链接能够激活Android市场的功能，可以把链接写成
 ```html
