@@ -227,6 +227,15 @@ NexT 默认的菜单项有（标注✿的项表示需要手动创建这个页面
 		type: "tags"
 		主题菜单中的路径改为：
 		tags: /tags
+### 2. 部署到github后由于css ,js 404导致的页面只显示的头部的问题
 
-	
+		 GitHub Pages 过滤掉了 source/vendors 目录的访问
+		 首先修改source/vendors为source/lib
+		 然后修改_config.yml，将 _internal: vendors修改为_internal:lib
+		 然后修改next底下所有引用source/vendors路径为source/lib
+		 主要是： Hexo\themes\next .bowerrc
+				  Hexo\themes\next .gitignore
+				  Hexo\themes\next .javascript_ignore
+				  Hexo\themes\next\ bower.json 
+		重新hexo g,hexo d就可以了
 ------------------------------------
