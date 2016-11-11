@@ -124,6 +124,8 @@ body{
 
 我们希望把配置项移到配置文件中
 
+利用上面修改之后的`entry.js`文件，只引入样式文件不做处理
+
 ***add webpack.config.js***
 ```js
 module.exports = {
@@ -144,8 +146,8 @@ module.exports = {
 
 	webpack
 
-运行结果
-![alt]()
+运行结果就可以在页面上看到结果
+
 
 >webpack 命令试图在当前文件下加载 wenpack.config.js 文件
 
@@ -165,6 +167,8 @@ module.exports = {
 	
 `webpack` 可以缓存没有改变的模块，没有变化的模块会在编译后缓存到内存中，而不会每次都被重新编译，所以监听模式的整体速度是很快的。
 
+>重新编译之后不会自动刷新浏览器
+
 
 ### development server
 
@@ -175,6 +179,6 @@ webpack-dev-server --progress --colors
 
 绑定一个下个小型的`express server` 在本地的 `8080`端口 （localhost:8080）
 托管你的静态资源和`bundle`文件（自动编译），当`bundle`文件编译完成，会自动更新浏览器页面。
-打开 http://localhost:8080/webpack-dev-server/bundle 在浏览器
+打开 http://localhost:8080/webpack-dev-server 在浏览器浏览
 
 >这个 dev server 利用的是 webpack 的监听模式
