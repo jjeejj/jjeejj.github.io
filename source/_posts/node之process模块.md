@@ -138,3 +138,18 @@ console.log('process.execPath:',process.execPath);
 
 >通过`process.exit(code)` 指定的code 会覆盖任何之前通过`process.exitCode`设置的值
 
+### process.argv
+
+一个包含命令行参数的数组。第一个元素会是 `node` 可执行文件的位置， 第二个元素将是 .Js 文件的名称。接下来的元素依次是命令行传入的参数。
+```js
+process.argv.forEach(function (val,index,array) {
+    console.log(`${index} : ${val}`);
+})
+```
+
+执行命令：
+
+	node process.js one two three
+
+执行结果
+![alt](/images/node之Process模块/prcess.argv.png)
