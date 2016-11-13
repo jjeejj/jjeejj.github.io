@@ -66,3 +66,9 @@ module.exports = (width)=>{
 * `<Array>`
 
 这个模块引入的所有模块对象--------不包括`Node.js`核心基础模块
+
+### mudule.parent
+
+* `<Moudle Object>`
+
+引入这个模块的模块
