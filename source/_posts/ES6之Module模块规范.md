@@ -1,8 +1,7 @@
 ---
 title: ES6之Module模块规范
-tags:
-  - js
-description: modules是 ES6 引入的最重要的一个特性
+tags: [js]
+description: Module是 ES6 引入的最重要的一个特性
 date: 2016-11-18 18:05:38
 ---
 
