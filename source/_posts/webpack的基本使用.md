@@ -182,3 +182,5 @@ webpack-dev-server --progress --colors
 打开 http://localhost:8080/webpack-dev-server 在浏览器浏览
 
 >这个 dev server 利用的是 webpack 的监听模式
+
+
