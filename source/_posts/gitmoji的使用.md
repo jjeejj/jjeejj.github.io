@@ -1,7 +1,10 @@
 ---
 title: gitmoji的使用
-tags: [git]
+tags:
+  - git
+date: 2016-11-22 23:26:16
 ---
+
 
 ---------------------------------
 git commit emoji 使用指南
