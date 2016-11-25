@@ -1,7 +1,10 @@
 ---
 title: node之Modules模块
-tags: [node]
+tags:
+  - node
+date: 2016-11-25 08:48:16
 ---
+
 ----------------------------------
 `Node.js`有一个简单的模块加载系统，在`Node.js`中文件和模块是一一对应的。
 
@@ -72,3 +75,7 @@ module.exports = (width)=>{
 * `<Moudle Object>`
 
 引入这个模块的模块
+
+### module.filename
+
+去完全解析的文件名对应到模块(文件的绝对路径)----与 `__filename`的一致  
