@@ -7,6 +7,4 @@ tags: [css3]
 
 <!--more-->
 
-  "hexo-renderer-marked": "^0.2.10",
-
 
