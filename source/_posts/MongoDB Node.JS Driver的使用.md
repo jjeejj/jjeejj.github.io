@@ -1,7 +1,7 @@
 ---
 title: MongoDB Node.JS Driver 的使用
 date: 2016-10-24 17:23:58
-tags: [node,mongodb]
+tags: [node,mongodb,数据库]
 description: MongoDB 官方为 Node.js 提供的mongodb数据库驱动。在mogodb-core核心上为最终使用的用户提供了一个高级API。
 ---
 

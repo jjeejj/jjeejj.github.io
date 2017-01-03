@@ -1,7 +1,6 @@
 ---
 title: mongodb服务msi的配置使用
-tags:
-  - mongodb
+tags: [mongodb,数据库]
 date: 2016-12-06 08:03:56
 ---
 

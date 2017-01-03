@@ -1,7 +1,6 @@
 ---
 title: mongodb的权限认证
-tags:
-  - mongodb
+tags: [mongodb,数据库]
 date: 2016-12-07 23:33:09
 ---
 

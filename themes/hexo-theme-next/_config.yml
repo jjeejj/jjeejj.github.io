@@ -32,6 +32,7 @@ menu:
   #categories: /categories
   archives: /archives
   tags: /tags
+  link: /link
   book: /book
   about: /about
   #commonweal: /404.html
@@ -48,6 +49,7 @@ menu_icons:
   home: home 
   categories: th
   tags: tags
+  link: link
   book: book
   about: user
   archives: archive

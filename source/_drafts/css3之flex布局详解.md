@@ -42,7 +42,6 @@ Flexible Box弹性盒子有两根轴,`main-axis` 和 `cross-axis`。两轴的开
 ```html
 .divflex{
 	border: 1px solid green;
-	width: 300px;
 	display: flex; /*flex布局*/  
 	/*display: inline-flex; /*inline-flex布局*/*/  
 }

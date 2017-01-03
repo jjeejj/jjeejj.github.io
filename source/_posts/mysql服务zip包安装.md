@@ -1,7 +1,6 @@
 ---
 title: mysql服务zip包安装
-tags:
-  - mysql
+tags: [mysql,数据库]
 date: 2016-12-05 17:45:14
 ---
 
@@ -16,7 +15,7 @@ window 上 **Mysql**安装的时候有**msi**安装和**zip**解压安装。zip�
 
 这里只选择服务端
 
-![mysqlserver](/images/mysql服务zip包安装/mysql-down.png)
+![mysqlserver](http://hexo-1252734879.costj.myqcloud.com/images/mysql%E6%9C%8D%E5%8A%A1zip%E5%8C%85%E5%AE%89%E8%A3%85/mysql-down.png)
 
 选择对应的版本
 
