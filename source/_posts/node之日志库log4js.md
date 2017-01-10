@@ -150,4 +150,8 @@ log4js.configure('my_log4js_configuration.json', { cwd: '/absolute/path/to/log/d
 }
 ```
 
+>说明：type：appender 的类型，category：每一个日志对象的唯一标识，filename：日志文件的名称，pattern：日志文件的后缀，有一定的格式要求
+> alwaysIncludePattern: 日志文件名是否总总是加上 pattern 的后缀，默认是当天的不加的
+> levels:日志级别，key 为上面日志对象的 category ,value:为日志级别（一共八个级别）
+
 >[官方文档](https://github.com/nomiddlename/log4js-node/wiki)
