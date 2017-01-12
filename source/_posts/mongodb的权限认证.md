@@ -115,6 +115,7 @@ use admin
 db.auth("jjeejj","jjeejj")
 ```
 
+>注意：创建用户的时候，给哪一个数据库创建用户，就要在这个数据库下进行操作  首先使用`use dbname`
 
 
 
