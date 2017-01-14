@@ -72,6 +72,17 @@ logger.fatal('access was breeding ground for listeria.');
 
 ```
 
+>日志有8个级别,分别是：
+>ALL
+>TRACE
+>DEBUG
+>INFO
+>WARN
+>ERROR
+>FATAL
+>OFF
+>  这些级别总的来说，上面级别的包含下面的级别的输出内容
+
 上面前六行代码可以这样写
 ```js
 var log4js = require('log4js');
