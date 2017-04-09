@@ -1,7 +1,10 @@
 ---
 title: hexo博客换电脑后重新配置步骤
-tags: [hexo]
+tags:
+  - hexo
+date: 2017-04-09 14:41:36
 ---
+
 
 ------------------------
 
@@ -23,3 +26,6 @@ tags: [hexo]
 `git clone -b hexo <git repo> hexo-bolg`, `hexo` 代表分支，`hexo-bolg` 代表本地文件夹
 * 安装依赖
 `npm install`
+
+
+*成功迁移*
