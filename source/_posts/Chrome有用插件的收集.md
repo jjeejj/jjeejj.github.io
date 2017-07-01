@@ -1,0 +1,82 @@
+---
+title: Chrome有用插件的收集
+tags:
+  - chrome
+  - other
+date: 2017-07-01 14:56:36
+---
+
+---------------------------------
+好的`Chrome`插件能帮助我们更好的工作，提高效率
+
+下面是我使用过感觉好的`Chrome`的插件
+
+----------------------------------------------------
+<!--more-->
+
+#### Postman
+
+调试接口使用的利器
+![](/images/chrome插件/postman.png)
+
+可以发送到桌面为快捷方式，方面快速启动
+![](/images/chrome插件/postman_shortcut.png)
+
+启动之后的界面为
+![](/images/chrome插件/postman_soft.png)
+基本上各种方式的请求都可以满足
+
+>使用方法非常简单，功能非常强大
+
+#### JSON Viewer
+
+请求的数据自动格式化
+在浏览器上格式`json`格式的数据的,方便查看请求返回的`json`数据
+![](/images/chrome插件/jsonviewer.png)
+
+比如请求豆瓣的电影`api` `http://api.douban.com/v2/movie/subject/1764796`
+可以伸缩的返回结果为：
+![](/images/chrome插件/jsonviewer_result.png)
+
+#### 掘金
+
+每天打开浏览器，查看最新的掘金技术文章
+![](/images/chrome插件/juejin.png)
+
+安装成功之后，打开浏览器就会这样的效果的
+![](/images/chrome插件/juejin_view.png)
+
+#### AdBlock
+
+ 屏蔽网站广告的，防止影响阅读
+![](/images/chrome插件/adblock.png)
+
+效果设置
+![](/images/chrome插件/adblock_view.png)
+
+#### Sourcegraph for GitHub
+
+这个非常强大，可以从`github`跳转到`Sourcegraph`在线预览代码,进行其他操作，相当于一个强大在线的`IDE`
+![](/images/chrome插件/sourcegraph.png)
+
+比如:
+![](/images/chrome插件/sourcegraph_first.png)
+跳转到：
+![](/images/chrome插件/sourcegraph_second.png)
+
+#### 新媒体管家
+
+方便对公众号的管理，增强公众号富文本编辑器的功能
+![](/images/chrome插件/xinmeiti.png)
+
+安装之后
+![](/images/chrome插件/xinmeiti_view.png)
+
+>以上插件下载的安装的时候，或需要翻墙进行科学上网
+>以上只是写出了，每个插件的用途的，具体的使用方法需自己去摸索
+
+***学到手上的才是自己的***
+
+
+
+
