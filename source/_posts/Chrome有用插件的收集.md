@@ -46,13 +46,16 @@ date: 2017-07-01 14:56:36
 安装成功之后，打开浏览器就会这样的效果的
 ![](/images/chrome插件/juejin_view.png)
 
-#### AdBlock
+#### Block
 
- 屏蔽网站广告的，防止影响阅读
+该插件名称为 `adblock`
+屏蔽网站广告的，防止影响阅读
 ![](/images/chrome插件/adblock.png)
 
 效果设置
 ![](/images/chrome插件/adblock_view.png)
+
+>若把标题写为 **adBlock** 生成的`h4`标签会自带一个`id=adblock`的属性，会导致标题隐藏不显出来
 
 #### Sourcegraph for GitHub
 
