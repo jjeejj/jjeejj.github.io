@@ -69,3 +69,5 @@ keep_on: Keep on posting.
 symbol:
   comma: ', '
   period: '. '
+
+gitmentbutton: Show comments from Gitment
