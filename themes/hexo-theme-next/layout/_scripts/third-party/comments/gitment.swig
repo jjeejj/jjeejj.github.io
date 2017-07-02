@@ -8,12 +8,12 @@
      {% if not theme.gitment.lazy %}
          <script type="text/javascript">
              var gitment = new Gitment({
+                 id: document.location.href, 
                  owner: '{{owner}}',
                  repo: '{{repo}}',
                  oauth: {
                      client_id: '{{cid}}',
                      client_secret: '{{cs}}',
-                 id: document.location.href, 
                  }});
              gitment.render('gitment-container');
          </script>

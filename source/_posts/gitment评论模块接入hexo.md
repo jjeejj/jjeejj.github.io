@@ -34,12 +34,12 @@ date: 2017-07-02 12:43:46
 # Gitment
 # Introduction: https://imsun.net/posts/gitment-introduction/
 gitment:
-enable: true
-githubID: <githubID>
-repo: <repo>
-ClientID: <ClientID>
-ClientSecret: <ClientSecret>
-lazy: false
+    enable: true
+    githubID: <githubID>
+    repo: <repo>
+    ClientID: <ClientID>
+    ClientSecret: <ClientSecret>
+    lazy: false
 ```
 
 `githubID`:为`github`的用户名
@@ -47,6 +47,8 @@ lazy: false
 `ClientID`:为上一步获取的`client ID`
 `ClientSecret`:为博客的仓库`client secret`
 `lazy`:是否默认把评论框收起来
+
+>此处应该注意锁进
 
 **修改语言的配置，在主题下的`language`文件夹下**
 
@@ -96,12 +98,12 @@ gitmentbutton: 顯示 Gitment 評論
      {% if not theme.gitment.lazy %}
          <script type="text/javascript">
              var gitment = new Gitment({
+                 id: document.location.href, 
                  owner: '{{owner}}',
                  repo: '{{repo}}',
                  oauth: {
                      client_id: '{{cid}}',
-                     client_secret: '{{cs}}',
-                 id: document.location.href, 
+                     client_secret: '{{cs}}'
                  }});
              gitment.render('gitment-container');
          </script>
@@ -151,6 +153,12 @@ gitmentbutton: 顯示 Gitment 評論
 ```css
 @import "gitment";
 ```
+
+　>最后打开发布的页面，用自己`github`帐号进行登录初始化
+
+#### 参考文章
+
+[Feature: Add Gitment Support ](https://github.com/iissnan/hexo-theme-next/pull/1634/files)
 
 
 
