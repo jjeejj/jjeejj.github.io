@@ -8,7 +8,7 @@
      {% if not theme.gitment.lazy %}
          <script type="text/javascript">
              var gitment = new Gitment({
-                 id: document.location.href, 
+                 id: document.title.split('|')[0].trim(), 
                  owner: '{{owner}}',
                  repo: '{{repo}}',
                  oauth: {
@@ -23,7 +23,7 @@
                  document.getElementById("gitment-display-button").style.display = "none";
                  document.getElementById("gitment-container").style.display = "block";
                  var gitment = new Gitment({
-                     id: document.location.href, 
+                     id: document.title.split('|')[0].trim(), 
                      owner: '{{owner}}',
                      repo: '{{repo}}',
                      oauth: {

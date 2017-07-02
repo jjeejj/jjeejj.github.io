@@ -48,7 +48,7 @@ gitment:
 `ClientSecret`:为博客的仓库`client secret`
 `lazy`:是否默认把评论框收起来
 
->此处应该注意锁进
+>此处应该注意缩进
 
 **修改语言的配置，在主题下的`language`文件夹下**
 
