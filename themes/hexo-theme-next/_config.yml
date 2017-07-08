@@ -406,8 +406,8 @@ version: 5.0.2
 # Introduction: https://imsun.net/posts/gitment-introduction/
 gitment:
   enable: true
-  githubID: <>
-  repo: <>
-  ClientID: <>
-  ClientSecret: <>
+  githubID: jjeejj
+  repo: jjeejj.github.io
+  ClientID: 1addc006b271fda6ba89
+  ClientSecret: 01bb905e097684490c838ce9b20ca84d409e25f2
   lazy: false

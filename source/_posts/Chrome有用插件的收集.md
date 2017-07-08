@@ -75,6 +75,21 @@ date: 2017-07-01 14:56:36
 安装之后
 ![](/images/chrome插件/xinmeiti_view.png)
 
+#### octotree
+
+Code tree for GitHub,方便查看github仓库文件树
+![](/images/chrome插件/octotree.png)
+
+安装成功之后：
+![](/images/chrome插件/octotree_view.png)
+
+#### gitcodetree
+
+该插件和 `octotree` 的功能一样，是基于`octotree`，不过这是国内开发的.
+可以用在 **码云**  和 **github**上,而 **octotree** 只能用在 `github上`
+
+
+
 >以上插件下载的安装的时候，或需要翻墙进行科学上网
 >以上只是写出了，每个插件的用途的，具体的使用方法需自己去摸索
 
