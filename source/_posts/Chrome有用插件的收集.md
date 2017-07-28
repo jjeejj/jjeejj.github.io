@@ -88,6 +88,14 @@ Code tree for GitHub,方便查看github仓库文件树
 该插件和 `octotree` 的功能一样，是基于`octotree`，不过这是国内开发的.
 可以用在 **码云**  和 **github**上,而 **octotree** 只能用在 `github上`
 
+#### 有道词典Chrome划词插件
+
+划词翻译，选中一个词语就会自动翻译
+![](/images/chrome插件/huaci.jpg)
+
+安装成功之后的效果：
+![](/images/chrome插件/huaci_view.jpg)
+
 
 
 >以上插件下载的安装的时候，或需要翻墙进行科学上网
