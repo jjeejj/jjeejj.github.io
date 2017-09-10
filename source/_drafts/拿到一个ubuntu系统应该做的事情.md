@@ -27,6 +27,7 @@ tags: [linux]
 
 * curl : `sudo apt-get install curl`
 * git : `sudo apt-get install git`
+* tree: `sudo apt-get install tree`
 
 * [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
 
@@ -36,8 +37,20 @@ tags: [linux]
 
     `nvm`这个命令可能写在在`.bashrc`，有可能需要添加到`.zshrc`中，  `nvm`才能起作用的
 
-* 利用 **nvm** 安装不同版本的`node`: `nvm install [node version]`
+* [tnvm](https://github.com/aliyun-node/tnvm)
+
+    `Taobao Node Version Manager`,是一个覆盖`nvm`所有功能的命令功能
+
+* node: 利用 **nvm** 安装不同版本的`node`: `nvm install [node version]`
 
 * docker : [docker ubuntu](https://docs.docker.com/engine/installation/linux/docker-ce/ubuntu/#prerequisites)
+
+* [nginx](http://www.cnblogs.com/piscesLoveCc/p/5794926.html)
+
+    安装`nginx`需要一定的软件包依赖
+    去`nginx`查看最新的版本下载 [new version](http://nginx.org/en/download.html)
+
+* mongo
+
 
 

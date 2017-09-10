@@ -96,6 +96,17 @@ Code tree for GitHub,方便查看github仓库文件树
 安装成功之后的效果：
 ![](/images/chrome插件/huaci_view.jpg)
 
+#### 视频小窗播放插件 PIP video
+
+![](/images/chrome插件/pip.png)
+安装这个插件要按照提示，开启`Chrome`的实验特性`chrome://flags/#enable-panels`
+![](/images/chrome插件/pip_flag.png)
+
+安装后，打开视频会左上角有个图标
+![](/images/chrome插件/pip_icon.png)
+
+然后点击图标就可以小窗播放了。效果图：
+![](/images/chrome插件/pip_show.png)
 
 
 >以上插件下载的安装的时候，或需要翻墙进行科学上网
