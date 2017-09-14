@@ -45,6 +45,8 @@ tags: [linux]
 
 * docker : [docker ubuntu](https://docs.docker.com/engine/installation/linux/docker-ce/ubuntu/#prerequisites)
 
+* docker-compose [docker-compose ubuntu](https://docs.docker.com/compose/install/#install-compose)
+
 * [nginx](http://www.cnblogs.com/piscesLoveCc/p/5794926.html)
 
     安装`nginx`需要一定的软件包依赖
