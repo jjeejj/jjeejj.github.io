@@ -128,6 +128,14 @@ Code tree for GitHub,方便查看github仓库文件树
 
 >这个右键点击显示出来，没有添加快捷方式的功能，就难受了。每次都得进到上面那个页面
 
+#### GitHub Hovercard
+
+GitHub Hovercard provides neat hovercards for GitHub. It brings you instant access to user/repo/issue/commit information from anywhere on GitHub
+![](/images/chrome插件/githubhovercard.jpg)
+
+安装完成后，你可以在`Github`的任何位置，访问**用户／仓库／issue/commit**的信息
+![](/images/chrome插件/githubhovercard_info.jpg)
+
 
 >以上插件下载的安装的时候，或需要翻墙进行科学上网
 >以上只是写出了，每个插件的用途的，具体的使用方法需自己去摸索
