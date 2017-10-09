@@ -136,6 +136,18 @@ GitHub Hovercard provides neat hovercards for GitHub. It brings you instant acce
 安装完成后，你可以在`Github`的任何位置，访问**用户／仓库／issue/commit**的信息
 ![](/images/chrome插件/githubhovercard_info.jpg)
 
+#### Axure RP Extension for Chrome
+
+An extension that allows local viewing of Axure RP prototypes from Google Chrome
+
+允许在`chrome`上查看`Axure`原型的插件
+![](/images/chrome插件/axure.jpg)
+
+安装完成，需要早这里勾选上，允许访问本地文件
+![](/images/chrome插件/axure_allow.jpg)
+
+这样就可以查看原型文件了。
+
 
 >以上插件下载的安装的时候，或需要翻墙进行科学上网
 >以上只是写出了，每个插件的用途的，具体的使用方法需自己去摸索
