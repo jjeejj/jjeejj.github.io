@@ -52,7 +52,7 @@ tags: [linux]
     安装`nginx`需要一定的软件包依赖
     去`nginx`查看最新的版本下载 [new version](http://nginx.org/en/download.html)
 
-* mongo
+* mongodb: [mongodb ubuntu](https://docs.mongodb.com/master/tutorial/install-mongodb-on-ubuntu/)
 
 
 
