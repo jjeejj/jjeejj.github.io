@@ -67,7 +67,7 @@ Write concren 可以包括下面的字段
 
 一个复制集确定一个写操作在指定成员数量应用写到内存或者写到硬盘`journal`中之后。
 成员数量通过`w:<value>`设定。下面列出了确定行为：成员数量和`write concern`之间的关系
-||** j is unspecified**|**j:true**|**j:false**|
+||**j is unspecified**|**j:true**|**j:false**|
 |:------:|:---------:|:------------:|:-----------:|
 |w:"majority"|Depends on the value of <br>**writeConcern-<br>-MajorityJournalDefault** <br>If true, On-disk journal.<br>If false, In memory.|On-disk journa |In memory|
 |w:<`number`>|in memory|On-disk journa |In memory|
