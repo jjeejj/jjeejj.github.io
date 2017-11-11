@@ -26,7 +26,7 @@ Write concren 可以包括下面的字段
 * **j** 配置项 ：代表写操作是否要写入`journal`的请求确定
 * **wtimeout**配置项：代表指定一个限制的时间防止写操作长时间阻塞 
 
-##### w OPtinon
+##### w Option
 
 |value|description|
 |:----:|:-----------:|
