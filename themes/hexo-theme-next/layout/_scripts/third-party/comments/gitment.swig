@@ -3,8 +3,8 @@
      {% set repo = theme.gitment.repo %}
      {% set cid = theme.gitment.ClientID %}
      {% set cs = theme.gitment.ClientSecret %}
-     <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
-     <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+     <link rel="stylesheet" href="https://jjeejj.github.io/libs/gitment/default.css">
+     <script src="https://jjeejj.github.io/libs/gitment/gitment.browser.js"></script>
      {% if not theme.gitment.lazy %}
          <script type="text/javascript">
              var gitment = new Gitment({
