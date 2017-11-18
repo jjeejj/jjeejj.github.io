@@ -1,5 +1,5 @@
 ---
-title: 'mac命令行用sublime,vscode,atom打开目录或文件的方法'
+title: mac命令行用sublime,vscode,atom打开目录或文件的方法
 tags:
   - other
 date: 2017-11-18 14:26:22
