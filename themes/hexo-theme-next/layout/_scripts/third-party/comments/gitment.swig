@@ -8,7 +8,7 @@
      {% if not theme.gitment.lazy %}
          <script type="text/javascript">
              var gitment = new Gitment({
-                 id: document.title.split('|')[0].trim(), 
+                 id: document.title.split('|')[0].trim(),
                  owner: '{{owner}}',
                  repo: '{{repo}}',
                  oauth: {
