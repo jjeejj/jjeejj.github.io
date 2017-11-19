@@ -26,7 +26,7 @@ date: 2017-10-29 20:03:19
 
 对应文档连接为： https://blogs.office.com/en-us/2013/04/10/office-web-viewer-view-office-documents-in-a-browser/?eu=true
 
-另外：***百度有个服务，文档服务 DOC 是可以预览,地址为：https://cloud.baidu.com/product/doc.html***
+另外：***百度有个服务，文档服务 DOC 是可以预览并且编辑的,地址为：https://cloud.baidu.com/product/doc.html***
 
 ![alt](/images/Wechatcode.jpg)
 **扫描关注，查看更多文章，提高编程能力**
