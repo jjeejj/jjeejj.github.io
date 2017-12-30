@@ -113,4 +113,13 @@ markdown:
     permalinkClass: header-anchor 
     # The symbol used to make the permalink
     permalinkSymbol: ¶
+  
+  feed:
+    type: atom
+    path: atom.xml
+    limit: 20
+    hub:
+    content:
+    content_limit:
+    content_limit_delim: ' '
 

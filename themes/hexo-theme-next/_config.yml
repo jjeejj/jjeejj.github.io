@@ -11,7 +11,7 @@ keywords: "Hexo, NexT"
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
 # Set rss to specific value if you have burned your feed already.
-rss:
+rss: 
 
 # Specify the date when the site was setup
 #since: 2015
@@ -125,7 +125,7 @@ font:
 # Key is the link label showing to end users.
 # Value is the target link (E.g. GitHub: https://github.com/iissnan)
 #social:
-  #LinkLabel: Link
+  #GitHub: https://github.com/jjeejj
 
 
 # Social Links Icons
