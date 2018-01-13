@@ -54,5 +54,5 @@ tags: [linux]
 
 * mongodb: [mongodb ubuntu](https://docs.mongodb.com/master/tutorial/install-mongodb-on-ubuntu/)
 
-
+* mysql: `sudo apt-get install mysql-server`
 
