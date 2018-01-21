@@ -18,7 +18,10 @@ tags: [other]
 
 这个插件还有一些小的有用的小功能可以查看官方文档查看 [todo-show 文档](https://atom.io/packages/todo-show)
 
-#### 
+#### langugae-docker
+
+高亮显示`Dockerfile`,`.dockerigonre`,`Dockerfile.<suffix>` 这样的文件
+![langugae-docker](/images/提高效率的atom插件/langugae_docker.jpg)
 
 ![alt](/images/Wechatcode.jpg)
 **扫描关注，查看更多文章，提高编程能力**
