@@ -23,5 +23,13 @@ tags: [other]
 高亮显示`Dockerfile`,`.dockerigonre`,`Dockerfile.<suffix>` 这样的文件
 ![langugae-docker](/images/提高效率的atom插件/langugae_docker.jpg)
 
+#### linter-solidity
+
+以太坊智能合约开发语言`Solidity`文件高亮显示
+
+#### autocomplete-solidity
+
+以太坊智能合约开发语言`Solidity` 代码自动补全
+
 ![alt](/images/Wechatcode.jpg)
 **扫描关注，查看更多文章，提高编程能力**

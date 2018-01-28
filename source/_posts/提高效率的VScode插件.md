@@ -105,6 +105,14 @@ date: 2017-11-19 10:48:36
 点击启动之后：
 ![alt](/images/vscode好用的插件/go_live_running.png)
 
+##### solidity
+
+以太坊开发语言`solidity`语言的支持
+
+##### emmet
+
+这个插件从`sublime`到`Vscode`再到`Atom`一直在用,`web`开发者的利器
+
 ![alt](/images/Wechatcode.jpg)
 **扫描关注，查看更多文章，提高编程能力**
 
