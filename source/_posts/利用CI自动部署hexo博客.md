@@ -35,7 +35,7 @@ date: 2018-02-11 22:41:58
 第二个配置项:`Build pushes`代表当推送完这个分支后开始构建
 
 到了这一步,我们已经开启了要构建的仓库,但是还有个问题就是,构建完后,我们怎么将生成的文件推送到github上呢? 
-我们只要想`github一push`，他就自动构建并`push`静态文件到`githubpages`,那么下面要解决的就是`Travis CI`怎么访问`github`了
+我们只要想`github一push`,他就自动构建并`push`静态文件到`githubpages`,那么下面要解决的就是`Travis CI`怎么访问`github`了
 
 4. 在`Travis CI`配置`Github`的`Access Token` 用来访问`Github`
 
@@ -83,9 +83,9 @@ env:
 现在我本地源码目录有新加的一篇文章:
 ![alt](/images/利用CI自动部署hexo博客/new_article.jpg)
 
-然后进行`push`提交(此刻应该编译成功了)
+然后进行`push`提交(此刻应该等待编译成功了)
 
-然后就可以在博客网站上看到刚才的那篇文章了
+然后稍等一会就可以在博客网站上看到刚才的那篇文章了
 ![alt](/images/利用CI自动部署hexo博客/new_article_show.jpg)
 
 你也可以在`Travis`的博客仓库的控制台看到编译的日志
