@@ -83,6 +83,12 @@ env:
 现在我本地源码目录有新加的一篇文章:
 ![alt](/images/利用CI自动部署hexo博客/new_article.jpg)
 
-然后进行`push`提交
+然后进行`push`提交(此刻应该编译成功了)
+
+然后就可以在博客网站上看到刚才的那篇文章了
+![alt](/images/利用CI自动部署hexo博客/new_article_show.jpg)
+
+你也可以在`Travis`的博客仓库的控制台看到编译的日志
+![alt](/images/利用CI自动部署hexo博客/new_article_build_log.jpg)
 
 >这里备注一下,由于平常我们写文章都是使用`heox new draft`新建的草稿文件,是放在`_drafts`文件夹中的,写完之后需要手动`hexo publish`一下,移到`_psots`文件夹中的,使用构建时候,还是需要这样做的
