@@ -1,7 +1,10 @@
 ---
 title: 有关Promise.catch方法的理解
-tags: [js]
+tags:
+  - js
+date: 2018-03-04 13:50:13
 ---
+
 ----------------------------------------------
 
 之前写了一篇有关`Promise`的`then`[方法的文章](https://mp.weixin.qq.com/s/PnoRPIgr1xYzOqLPNpqK5g),现在在讲解一下有关`Promise`原型上`catch`的方法
