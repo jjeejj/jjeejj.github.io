@@ -163,3 +163,6 @@ p3.catch(function(e) {
    console.log(e); // 不会执行
 });
 ```
+
+![alt](/images/Wechatcode.jpg)
+**扫描关注，查看更多文章，提高编程能力**

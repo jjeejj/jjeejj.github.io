@@ -80,3 +80,6 @@ p.then(function(data){
     })
 })
 ```
+
+![alt](/images/Wechatcode.jpg)
+**扫描关注，查看更多文章，提高编程能力**
