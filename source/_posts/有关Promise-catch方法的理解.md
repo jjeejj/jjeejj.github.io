@@ -101,7 +101,7 @@ p1.then(function(value) {
 上面的打印结果为:
 Success
 e oh, no!
-after a catch the chain is restored ssssss
+Not fired due to the catch ssssss
 ```
 
 ```js
