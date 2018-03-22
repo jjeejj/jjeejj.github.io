@@ -54,3 +54,6 @@ date: 2018-03-22 21:46:56
     `htpasswd -bn jiang jiang`
 
 5. **nginx**模块 [http_auth_basic_module](http://nginx.org/en/docs/http/ngx_http_auth_basic_module.html)中的使用,用于生成用户密码文件进行认证
+
+![alt](/images/Wechatcode.jpg)
+**扫描关注，查看更多文章，提高编程能力**
