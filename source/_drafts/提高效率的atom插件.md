@@ -31,5 +31,10 @@ tags: [other]
 
 以太坊智能合约开发语言`Solidity` 代码自动补全
 
+#### open-in-browser
+
+在浏览器中打开`html`文件
+![open-in-browser](/images/提高效率的atom插件/open-in-browser.jpg)
+
 ![alt](/images/Wechatcode.jpg)
 **扫描关注，查看更多文章，提高编程能力**
