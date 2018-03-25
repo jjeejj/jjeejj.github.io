@@ -60,6 +60,8 @@ date: 2018-03-25 12:02:53
 5. 同步本地的项目文件
 ![alt](/images/atom配置ftp服务/ftp_sync.jpg)
 
+6. 最后如果有文件不需要上到服务器的可以添加`.ftpignore`文件`Packages -> Remote FTP -> Create ignore file`用法和`.gitignore`一样
+
 **完成！！！** ***到此为止本地的文件夹就已经和远程的文件夹关联起来了,若监听对应的文件夹,那么修改后就会自动上传到服务器了***
 
 ![alt](/images/Wechatcode.jpg)
