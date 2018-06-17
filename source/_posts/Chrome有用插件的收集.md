@@ -148,6 +148,19 @@ An extension that allows local viewing of Axure RP prototypes from Google Chrome
 
 这样就可以查看原型文件了。
 
+#### Set Character Encoding
+
+打开一个网页后,右键右键可以设置网页编码
+![](/images/chrome插件/setCharacter.jpg)
+
+#### Termius - SSH Client
+
+ssh 客户端,是一个应用,[官方网站](http://www.termius.com/)
+[插件地址](https://chrome.google.com/webstore/detail/termius-ssh-client/fjcdjmmkgnkgihjnlbgcdamkadlkbmam?utm_source=chrome-app-launcher-info-dialog) 还可以使用对应系统的客户端
+![](/images/chrome插件/ssh_client.jpg)
+
+
+
 
 >以上插件下载的安装的时候，或需要翻墙进行科学上网
 >以上只是写出了，每个插件的用途的，具体的使用方法需自己去摸索

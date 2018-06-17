@@ -41,5 +41,15 @@ tags: [other]
 提供`ftp`服务
 ![remote-ftp](/images/atom配置ftp服务/ftp_install.jpg)
 
+#### atom-beautify
+
+多种语言的格式化代码
+![atom-beautify](/images/提高效率的atom插件/atom-beautify.jpg)
+
+#### language-vue
+
+vue代码高亮
+![language-vue](/images/提高效率的atom插件/language_vue.jpg)
+
 ![alt](/images/Wechatcode.jpg)
 **扫描关注，查看更多文章，提高编程能力**
