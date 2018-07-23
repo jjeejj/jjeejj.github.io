@@ -12,7 +12,7 @@ tags: [other]
 
 #### todo-show
 
-可以在`atom`右侧以列表的形式展示你标记为`TODO`的地方,方便以后修改ß
+可以在`atom`右侧以列表的形式展示你标记为`TODO`的地方,方便以后修改
 
 ![todo_show](/images/提高效率的atom插件/todo_show.jpg)
 
@@ -50,6 +50,15 @@ tags: [other]
 
 vue代码高亮
 ![language-vue](/images/提高效率的atom插件/language_vue.jpg)
+
+#### file-icons
+
+显示对应文件的logo图标
+
+#### platformio-ide-terminal
+
+左下角出现快捷的打开命令行的按钮
+![platformio-ide-terminal](/images/提高效率的atom插件/platformio_ide_terminale.png)
 
 ![alt](/images/Wechatcode.jpg)
 **扫描关注，查看更多文章，提高编程能力**

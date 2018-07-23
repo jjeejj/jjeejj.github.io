@@ -159,7 +159,10 @@ ssh 客户端,是一个应用,[官方网站](http://www.termius.com/)
 [插件地址](https://chrome.google.com/webstore/detail/termius-ssh-client/fjcdjmmkgnkgihjnlbgcdamkadlkbmam?utm_source=chrome-app-launcher-info-dialog) 还可以使用对应系统的客户端
 ![](/images/chrome插件/ssh_client.jpg)
 
+#### NIM
 
+利用 `Chrome Devtools` 的 `node` 调试工具[说明文档](http://june07.com/debugging-nim/)
+![](/images/chrome插件/NIM.png)
 
 
 >以上插件下载的安装的时候，或需要翻墙进行科学上网
