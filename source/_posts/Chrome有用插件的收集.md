@@ -164,6 +164,15 @@ ssh 客户端,是一个应用,[官方网站](http://www.termius.com/)
 利用 `Chrome Devtools` 的 `node` 调试工具[说明文档](http://june07.com/debugging-nim/)
 ![](/images/chrome插件/NIM.png)
 
+#### Web Scraper
+
+爬取网页的数据的利器,可以导出 `csv`格式的数据
+![](/images/chrome插件/web_scraper_install.png)
+
+使用的时候打开 `dev toos`
+![](/images/chrome插件/web_scraper_dev.png)
+
+
 
 >以上插件下载的安装的时候，或需要翻墙进行科学上网
 >以上只是写出了，每个插件的用途的，具体的使用方法需自己去摸索
