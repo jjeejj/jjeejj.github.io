@@ -172,6 +172,13 @@ ssh 客户端,是一个应用,[官方网站](http://www.termius.com/)
 使用的时候打开 `dev toos`
 ![](/images/chrome插件/web_scraper_dev.png)
 
+#### dualsub-supports
+
+YouTube 播放器实现双语字幕 , 但是这个插件只能开发者模式安装 `github` 地址为 [DualSub](https://github.com/muzuiget/dualsub-supports)
+
+安装之后的效果为: 
+![](/images/chrome插件/dualsub_display.png)
+
 
 
 >以上插件下载的安装的时候，或需要翻墙进行科学上网
