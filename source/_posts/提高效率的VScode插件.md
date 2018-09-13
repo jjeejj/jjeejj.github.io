@@ -129,6 +129,10 @@ date: 2017-11-19 10:48:36
 
 直接用 `Vscode` 发送 `Http` 请求 和查看 响应的结果 (调试 `API`接口)
 
+#### GitHub Pull Requests
+
+把 `Gothub Pull Requests` 的操作集成到 `Vscode` 中,方便操作,安装成功需要在 `Vscode` 中认证 `Gothub` 账号
+
 ![alt](/images/Wechatcode.jpg)
 **扫描关注，查看更多文章，提高编程能力**
 
