@@ -179,7 +179,7 @@ YouTube 播放器实现双语字幕 , 但是这个插件只能开发者模式安
 安装之后的效果为: 
 ![](/images/chrome插件/dualsub_display.png)
 
-### WEB前端助手(FeHelper)
+#### WEB前端助手(FeHelper)
 
 各种前端小工具的集合
 
