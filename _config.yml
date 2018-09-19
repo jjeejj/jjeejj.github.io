@@ -82,7 +82,7 @@ avatar: /images/avatar.jpg
 baidu_analytics: 907c2a45cb126304b2261b92b0d601bf
 
 # 百度分享
-baidushare: true
+# baidushare: true
 
 
 # Markdown-it config
