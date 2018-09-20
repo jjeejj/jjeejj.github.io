@@ -3231,9 +3231,7 @@ function ajaxFactory(method) {
       });
     });
     req.open(method, url, true);
-    for(let headerKey in headers){
-        req.setRequestHeader(headerKey,headers[headerKey]);
-    }
+
     req.setRequestHeader('Accept', 'application/vnd.github.squirrel-girl-preview, application/vnd.github.html+json');
     if (token) {
       req.setRequestHeader('Authorization', 'token ' + token);
@@ -3241,6 +3239,9 @@ function ajaxFactory(method) {
     if (method !== 'GET' && method !== 'DELETE') {
       body = JSON.stringify(data);
       req.setRequestHeader('Content-Type', 'application/json');
+    };
+    for(let headerKey in headers){
+        req.setRequestHeader(headerKey,headers[headerKey]);
     }
 
     req.send(body);
@@ -3421,7 +3422,7 @@ var Gitment = function () {
         code: code,
         client_id: client_id,
         client_secret: client_secret
-      }, '').then(function (data) {
+      }, '',{'Content-Type':'application/x-www-form-urlencoded'}).then(function (data) {
         _this.accessToken = data.access_token;
         _this.update();
       }).catch(function (e) {
