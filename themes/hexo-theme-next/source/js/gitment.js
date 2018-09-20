@@ -3238,7 +3238,7 @@ function ajaxFactory(method) {
     }
     if (method !== 'GET' && method !== 'DELETE') {
       body = JSON.stringify(data);
-      req.setRequestHeader('Content-Type', 'application/json');
+    //   req.setRequestHeader('Content-Type', 'application/json');
     };
     for(let headerKey in headers){
         req.setRequestHeader(headerKey,headers[headerKey]);
