@@ -3417,7 +3417,7 @@ var Gitment = function () {
 
       this.state.user.isLoggingIn = true;
     //   _utils.http.post('https://gh-oauth.imsun.net', {
-      _utils.http.post('http://118.24.118.242:4500?remoteUrl=https://github.com/login/oauth/access_token', {
+      _utils.http.post('https://cors.wenjunjiang.win?remoteUrl=https://github.com/login/oauth/access_token', {
         code: code,
         client_id: client_id,
         client_secret: client_secret
