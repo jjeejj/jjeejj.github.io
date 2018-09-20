@@ -3200,6 +3200,7 @@ function ajaxFactory(method) {
   return function (apiPath) {
     var data = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
     var base = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : 'https://api.github.com';
+    var headers = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : {}; //设置 header
 
     var req = new XMLHttpRequest();
     var token = localStorage.getItem(_constants.LS_ACCESS_TOKEN_KEY);
@@ -3230,7 +3231,9 @@ function ajaxFactory(method) {
       });
     });
     req.open(method, url, true);
-
+    for(let headerKey in headers){
+        req.setRequestHeader(headerKey,headers[headerKey]);
+    }
     req.setRequestHeader('Accept', 'application/vnd.github.squirrel-girl-preview, application/vnd.github.html+json');
     if (token) {
       req.setRequestHeader('Authorization', 'token ' + token);
@@ -3418,7 +3421,7 @@ var Gitment = function () {
         code: code,
         client_id: client_id,
         client_secret: client_secret
-      }, '').then(function (data) {
+      }, '',{'Origin':window.location.origin}).then(function (data) {
         _this.accessToken = data.access_token;
         _this.update();
       }).catch(function (e) {
