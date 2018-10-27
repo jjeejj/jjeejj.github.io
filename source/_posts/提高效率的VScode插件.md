@@ -133,6 +133,10 @@ date: 2017-11-19 10:48:36
 
 把 `Gothub Pull Requests` 的操作集成到 `Vscode` 中,方便操作,安装成功需要在 `Vscode` 中认证 `Gothub` 账号
 
+##### Debugger for Chrome
+
+在浏览器中调试你的 `JS` 代码
+
 ![alt](/images/Wechatcode.jpg)
 **扫描关注，查看更多文章，提高编程能力**
 
