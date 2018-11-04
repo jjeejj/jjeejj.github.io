@@ -93,7 +93,7 @@ gitmentbutton: 顯示 Gitment 評論
      {% set repo = theme.gitment.repo %}
      {% set cid = theme.gitment.ClientID %}
      {% set cs = theme.gitment.ClientSecret %}
-     <link rel="stylesheet" href="ttps://jjeejj.github.io/css/gitment.css">
+     <link rel="stylesheet" href="https://www.wenjunjiang.win/css/gitment.css">
      <script src="https://www.wenjunjiang.win/js/gitment.js"></script>
      {% if not theme.gitment.lazy %}
          <script type="text/javascript">
