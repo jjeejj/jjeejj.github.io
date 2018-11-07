@@ -137,6 +137,11 @@ date: 2017-11-19 10:48:36
 
 在浏览器中调试你的 `JS` 代码
 
+##### vscode-fileheader
+
+给一个文件 在文件顶部添加一些文件注释，包括： `Auth` , `LastModifiedBy` 两个变量 , `tpl` 模版变量，可以修改 该模版，对应修改显示的内容
+![alt](/images/vscode好用的插件/vscode-fileheader.jpeg)
+
 ![alt](/images/Wechatcode.jpg)
 **扫描关注，查看更多文章，提高编程能力**
 
