@@ -142,6 +142,10 @@ date: 2017-11-19 10:48:36
 给一个文件 在文件顶部添加一些文件注释，包括： `Auth` , `LastModifiedBy` 两个变量 , `tpl` 模版变量，可以修改 该模版，对应修改显示的内容
 ![alt](/images/vscode好用的插件/vscode-fileheader.jpeg)
 
+##### Java Extension Pack
+
+`Java` 在 `VsCode` 上开发插件集合包括 **Language Support for Java™ by Red Hat**, **Debugger for Java**, **Java Test Runner**,**Maven Project Explorer**
+
 ![alt](/images/Wechatcode.jpg)
 **扫描关注，查看更多文章，提高编程能力**
 
