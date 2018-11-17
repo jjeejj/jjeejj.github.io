@@ -146,6 +146,23 @@ date: 2017-11-19 10:48:36
 
 `Java` 在 `VsCode` 上开发插件集合包括 **Language Support for Java™ by Red Hat**, **Debugger for Java**, **Java Test Runner**,**Maven Project Explorer**
 
+##### GitLens
+
+增强 Vscode 的  `Git` 功能, 完全包含上面推荐的 `Git History` 插件. 该插件强烈推荐
+
+##### RemoteHub
+
+在本地看某个 `GitHub repository` 的代码时,你就不需要将代码 clone 下来了，你可以直接打开这个 `repository` 相关的工作区，所有文件、文件夹都是从 GitHub 按需下载下来
+
+##### Live Share
+
+你可以将你本地的工作区,直接分享给你的同伴,然后你的同伴就可以直接编辑你的代码，与你共享代码调试、集成终端等等，而无需安装任何环境
+
+##### Live Share Audio
+
+`Live Share`的增强插件,可以让 `Live Share` 语音通信
+
+
 ![alt](/images/Wechatcode.jpg)
 **扫描关注，查看更多文章，提高编程能力**
 
