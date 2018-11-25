@@ -193,6 +193,13 @@ Emoji for Google Chrome 在 `chrome` 使用 `emoji` 表情
 安装之后的效果为: 
 ![](/images/chrome插件/chromoji.png)
 
+#### DevTodo
+
+在 `Chrome` 开发者工具上管理`todo list`
+
+安装之后的效果为: 
+![](/images/chrome插件/devtodo.png)
+
 >以上插件下载的安装的时候，或需要翻墙进行科学上网
 >以上只是写出了，每个插件的用途的，具体的使用方法需自己去摸索
 
