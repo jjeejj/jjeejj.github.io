@@ -209,6 +209,12 @@ Emoji for Google Chrome 在 `chrome` 使用 `emoji` 表情
 
 > 有的网站有安全策略 **CSP** 对资源加载限制， 比如 `Github` 这个插件是不可以使用的 
 
+#### Smallpdf
+
+一个免费的 `PDF` 处理的工具机
+![](/images/chrome插件/smallpdf.png)
+![](/images/chrome插件/smallpdf_install.png)
+
 >以上插件下载的安装的时候，或需要翻墙进行科学上网
 >以上只是写出了，每个插件的用途的，具体的使用方法需自己去摸索
 
