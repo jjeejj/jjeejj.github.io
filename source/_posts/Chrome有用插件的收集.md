@@ -215,6 +215,12 @@ Emoji for Google Chrome 在 `chrome` 使用 `emoji` 表情
 ![](/images/chrome插件/smallpdf.png)
 ![](/images/chrome插件/smallpdf_install.png)
 
+#### XPath Helper
+
+利用`XPath` 语法在页面长查询对应的元素
+![](/images/chrome插件/xpath.png)
+![](/images/chrome插件/xpath_query.png)
+
 >以上插件下载的安装的时候，或需要翻墙进行科学上网
 >以上只是写出了，每个插件的用途的，具体的使用方法需自己去摸索
 
