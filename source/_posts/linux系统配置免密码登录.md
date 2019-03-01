@@ -64,7 +64,7 @@ AuthorizedKeysFile	%h/.ssh/authorized_keys
 确保上面这几项是打开的，非注释掉的
 
 最后重启`ssh`
-`service ssh restart`
+`service sshd restart`
 
 接下来就可以免密码登录的了,但是每次还是需要输入用户名和主机地址的，这可以在本地配置`alias`别名
 
