@@ -221,11 +221,14 @@ Emoji for Google Chrome 在 `chrome` 使用 `emoji` 表情
 ![](/images/chrome插件/xpath.png)
 ![](/images/chrome插件/xpath_query.png)
 
+#### [Office Editing for Docs, Sheets & Slides](https://chrome.google.com/webstore/detail/office-editing-for-docs-s/gbkeegbaiigmenfmjfclcdgdpimamgkj/related?hl=en)
+
+`Chrome`在线查看和简单修改`Office`文件，包括`Word, Excel,PPT`,只需要把文件拖到浏览器中即可
+
 >以上插件下载的安装的时候，或需要翻墙进行科学上网
 >以上只是写出了，每个插件的用途的，具体的使用方法需自己去摸索
 
 ***学到手上的才是自己的***
 
-
-
-
+![alt](/images/Wechatcode.jpg)
+**扫描关注，查看更多文章，提高编程能力**
