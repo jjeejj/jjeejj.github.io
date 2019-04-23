@@ -65,11 +65,6 @@ Wants=network-online.target
 [Service]
 ExecStart=/usr/bin/redis-server /etc/redis.conf --supervised systemd
 ExecStop=/usr/libexec/redis-shutdown
-Type=notify
-User=redis
-Group=redis
-RuntimeDirectory=redis
-RuntimeDirectoryMode=0755
 
 [Install]
 WantedBy=multi-user.target
