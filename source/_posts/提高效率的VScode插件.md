@@ -162,6 +162,10 @@ date: 2017-11-19 10:48:36
 
 `Live Share`的增强插件,可以让 `Live Share` 语音通信
 
+##### Remote Development
+
+远程开发套件,可以让你在`Vscode`中打开在**远程机器**上 **容器**或者 **WSL** 中的任意文件夹及文件，然后利用`Vscode` 强大的功能
+
 
 ![alt](/images/Wechatcode.jpg)
 **扫描关注，查看更多文章，提高编程能力**
