@@ -233,6 +233,11 @@ View starred repositories, organizing stars, searching stars and searching repos
 ![](/images/chrome插件/the_fucking_github.png)
 ![](/images/chrome插件/the_fucking_github_index.png)
 
+#### [Refined GitHub](https://chrome.google.com/webstore/detail/refined-github/hlepfoohegkhhmjieoechaddaejaokhf/related)
+
+Refined GitHub 是一个简化 GitHub 界面并拥有实用功能的浏览器扩展程序
+![](/images/chrome插件/refined_github.png)
+
 >以上插件下载的安装的时候，或需要翻墙进行科学上网
 >以上只是写出了，每个插件的用途的，具体的使用方法需自己去摸索
 
