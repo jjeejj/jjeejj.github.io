@@ -238,6 +238,12 @@ View starred repositories, organizing stars, searching stars and searching repos
 Refined GitHub 是一个简化 GitHub 界面并拥有实用功能的浏览器扩展程序
 ![](/images/chrome插件/refined_github.png)
 
+#### [draw.io Diagrams](https://chrome.google.com/webstore/detail/drawio-diagrams/onlkggianjhjenigcpigpjehhpplldkc/related)
+
+draw.io Diagrams 是一个画各种图的浏览器app应用
+![](/images/chrome插件/draw_io.png)
+![](/images/chrome插件/draw_io_chart.png)
+
 >以上插件下载的安装的时候，或需要翻墙进行科学上网
 >以上只是写出了，每个插件的用途的，具体的使用方法需自己去摸索
 
