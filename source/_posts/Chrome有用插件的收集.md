@@ -244,6 +244,12 @@ draw.io Diagrams 是一个画各种图的浏览器app应用
 ![](/images/chrome插件/draw_io.png)
 ![](/images/chrome插件/draw_io_chart.png)
 
+#### [HTTP/2 and SPDY indicator](https://chrome.google.com/webstore/detail/http2-and-spdy-indicator/mpbpobfflnpcgagjijhmgnchggcjblin?hl=zh-CN)
+
+检测网站是否支持 `HTTP/2` 或者 `SPDY` 协议
+![](/images/chrome插件/http2_spdy.png)
+![](/images/chrome插件/http2_spdy_show.png)
+
 >以上插件下载的安装的时候，或需要翻墙进行科学上网
 >以上只是写出了，每个插件的用途的，具体的使用方法需自己去摸索
 
