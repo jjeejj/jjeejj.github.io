@@ -250,6 +250,13 @@ draw.io Diagrams 是一个画各种图的浏览器app应用
 ![](/images/chrome插件/http2_spdy.png)
 ![](/images/chrome插件/http2_spdy_show.png)
 
+#### [Git History Browser Extension](https://chrome.google.com/webstore/search/Git%20History?hl=zh-CN)
+
+在`Github`网站上查看文件的`Git`提交历史记录
+![](/images/chrome插件/Git-History.png)
+![](/images/chrome插件/git-history-show.png)
+
+
 >以上插件下载的安装的时候，或需要翻墙进行科学上网
 >以上只是写出了，每个插件的用途的，具体的使用方法需自己去摸索
 
