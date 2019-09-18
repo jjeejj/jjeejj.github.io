@@ -9,13 +9,6 @@
 <head>
   {% include '_partials/head.swig' %}
   <title>{% block title %}{% endblock %}</title>
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-  <script>
-    (adsbygoogle = window.adsbygoogle || []).push({
-      google_ad_client: "ca-pub-7062474127347054",
-      enable_page_level_ads: true
-    });
-  </script>
 </head>
 
 <body itemscope itemtype="//schema.org/WebPage" lang="{{ config.language }}">
