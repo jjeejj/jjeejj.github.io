@@ -262,6 +262,12 @@ draw.io Diagrams 是一个画各种图的浏览器app应用
 ![](/images/chrome插件/similarweb.png)
 ![](/images/chrome插件/similarweb_show.png)
 
+#### [网页截图:注释&录屏](https://chrome.google.com/webstore/detail/awesome-screenshot-screen/nlipoenfbbikpbjkfpfillcgkoblgpmj)
+
+录屏，捕获整个页面或任何部分(还可以进行滚动长截图)
+![](/images/chrome插件/awesomescreenshop.png)
+![](/images/chrome插件/awesomescreenshop_show.png)
+
 
 >以上插件下载的安装的时候，或需要翻墙进行科学上网
 >以上只是写出了，每个插件的用途的，具体的使用方法需自己去摸索
