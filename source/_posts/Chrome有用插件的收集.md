@@ -256,6 +256,12 @@ draw.io Diagrams 是一个画各种图的浏览器app应用
 ![](/images/chrome插件/Git-History.png)
 ![](/images/chrome插件/git-history-show.png)
 
+#### [SimilarWeb - 网站流量来源和排名](https://chrome.google.com/webstore/detail/similarweb-traffic-rank-w/hoklmmgfnpapgjgcpechhaamimifchmp?utm_source=chrome-ntp-icon)
+
+可以查看网站排名的具体情况
+![](/images/chrome插件/similarweb.png)
+![](/images/chrome插件/similarweb_show.png)
+
 #### [网页截图:注释&录屏](https://chrome.google.com/webstore/detail/awesome-screenshot-screen/nlipoenfbbikpbjkfpfillcgkoblgpmj)
 
 录屏，捕获整个页面或任何部分(还可以进行滚动长截图)
