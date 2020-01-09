@@ -1,7 +1,7 @@
 ---
 title: 电子名片Vcard标准详解
 tags:
-  - other
+  - tools
 date: 2017-07-23 21:02:59
 ---
 

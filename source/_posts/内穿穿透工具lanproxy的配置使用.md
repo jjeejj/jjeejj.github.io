@@ -1,7 +1,7 @@
 ---
 title: 内穿穿透工具lanproxy的配置使用
 tags:
-  - other
+  - tools
 date: 2018-01-21 12:56:19
 ---
 

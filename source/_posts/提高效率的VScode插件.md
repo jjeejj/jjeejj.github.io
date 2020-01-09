@@ -1,7 +1,8 @@
 ---
 title: 提高效率的VScode插件
 tags:
-  - other
+  - vscode
+  - plguin
 date: 2017-11-19 10:48:36
 ---
 
