@@ -87,7 +87,7 @@ tags: [postman]
 
 ![alt](/images/postman/hawk_authentication.png)
 
-**hawk**是一个**HTTP**认证方案，使用**MAC**(Message Authentication Code，消息认证码算法)算法，它提供了对请求进行部分加密验证的认证HTTP请求的方法，包括HTTP方法、请求URI和主机。
+**hawk**是一个**HTTP**认证方案，使用**MAC**(Message Authentication Code，消息认证码算法)算法，它提供了对请求进行部分加密验证的认证HTTP请求的方法，包括HTTP方法、请求URI和主机
 
 **hawk**方案要求提供一个共享对称密匙在服务器与客户端之间，通常这个共享的凭证在初始TLS保护阶段建立的，或者是从客户端和服务器都可用的其他一些共享机密信息中获得的
 
