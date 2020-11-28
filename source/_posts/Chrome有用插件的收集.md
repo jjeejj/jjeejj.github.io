@@ -176,28 +176,28 @@ ssh 客户端,是一个应用,[官方网站](http://www.termius.com/)
 
 YouTube 播放器实现双语字幕 , 但是这个插件只能开发者模式安装 `github` 地址为 [DualSub](https://github.com/muzuiget/dualsub-supports)
 
-安装之后的效果为: 
+安装之后的效果为:
 ![](/images/chrome插件/dualsub_display.png)
 
 #### WEB前端助手(FeHelper)
 
 各种前端小工具的集合
 
-安装之后的效果为: 
+安装之后的效果为:
 ![](/images/chrome插件/fehelper.png)
 
 #### Chromoji
 
 Emoji for Google Chrome 在 `chrome` 使用 `emoji` 表情
 
-安装之后的效果为: 
+安装之后的效果为:
 ![](/images/chrome插件/chromoji.png)
 
 #### DevTodo
 
 在 `Chrome` 开发者工具上管理`todo list`
 
-安装之后的效果为: 
+安装之后的效果为:
 ![](/images/chrome插件/devtodo.png)
 
 #### Console Importer
@@ -207,7 +207,7 @@ Emoji for Google Chrome 在 `chrome` 使用 `emoji` 表情
 ![](/images/chrome插件/console-importer.png)
 ![](/images/chrome插件/console-importer-use.png)
 
-> 有的网站有安全策略 **CSP** 对资源加载限制， 比如 `Github` 这个插件是不可以使用的 
+> 有的网站有安全策略 **CSP** 对资源加载限制， 比如 `Github` 这个插件是不可以使用的
 
 #### Smallpdf
 
@@ -268,6 +268,11 @@ draw.io Diagrams 是一个画各种图的浏览器app应用
 ![](/images/chrome插件/awesomescreenshop.png)
 ![](/images/chrome插件/awesomescreenshop_show.png)
 
+#### [二维码生成器](https://chrome.google.com/webstore/detail/qr-code-generator/afpbjjgbdimpioenaedcjgkaigggcdpp/)
+
+可以方便地把当前页面转化成二维码，也可以把网页上任何文本或链接，甚至是您输入的任意内容都转化成二维码
+![](/images/chrome插件/quick_qr.png)
+![](/images/chrome插件/quick_qr_code.png)
 
 >以上插件下载的安装的时候，或需要翻墙进行科学上网
 >以上只是写出了，每个插件的用途的，具体的使用方法需自己去摸索
